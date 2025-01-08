@@ -745,6 +745,9 @@ body {
   .header .logo {
     width: 120px;
   }
+  .opened-hamburger .wrapper {
+    width: 75%;
+  }
   .footer-descr {
     text-align: center;
   }

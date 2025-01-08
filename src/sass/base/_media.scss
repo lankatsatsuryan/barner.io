@@ -1,4 +1,5 @@
 @media(min-width: 1360px) { 
+
     .buy-product {
         &-cards {
             .buy-product-card {
@@ -13,7 +14,8 @@
         }
     }
 
-    // buy-product
+
+
     .product-page {
         &-info {
             .product-page-btn {
@@ -26,7 +28,7 @@
 }
 
 @media(max-width: 1360px) {
-//promo
+
     .buy-product {
         &-cards {
             .buy-product-card {
@@ -45,6 +47,9 @@
             }
         }
     }
+
+
+
     .lenses-guide {
         padding: 0;
         flex-direction: column;
@@ -71,25 +76,29 @@
         }
     }
 
-    // buy-product
+    
+
     .product-page {
         &-info {
             margin-top: 30px;
         }
     }
 
-    // about-us
+    
+
     .about-us {
         padding: 50px;
     }
 
-    //help
+
+
     .help {
         padding: 190px 50px 100px 50px;
     }
 }
 
 @media(max-width: 991px) {
+
     .header {
         padding: 34px 30px;
         &-hamburger {
@@ -117,7 +126,7 @@
         }
     }
 
-    //promo
+
 
     .promo {
         background: none;
@@ -142,7 +151,8 @@
         }
     }
 
-    // buy-product
+
+
     .product-page {
         flex-direction: column;
 
@@ -155,7 +165,9 @@
         }
     }
 
-    // about-us
+
+
+
     .our-story {
         background: url('../img/about-us/main-photo-2.png') center center/cover no-repeat;
 
@@ -202,7 +214,8 @@
         }
     }
 
-    //help
+
+
     .help {
         padding: 140px 40px 50px 40px;
 
@@ -232,7 +245,7 @@
 }
 
 @media(max-width: 768px) {
-//promo
+    
     .buy-product {
         &-title {
             margin-top: 30px;
@@ -247,6 +260,8 @@
             }
         }
     }
+
+
 
     .lenses-guide  {
         &-info {
@@ -275,13 +290,24 @@
         }
     }
 
+
+
+    .opened-hamburger {
+        .wrapper {
+            width: 75%;
+        }
+    }
+
+
+
     .footer {
         &-descr {
             text-align: center;
         }
     }
     
-    //promo
+
+
     .promo {
         min-height: 600px;
 
@@ -295,6 +321,8 @@
         }
     }
 
+
+
     .buy-product {
         &-title {
             margin-left: 20px;
@@ -302,7 +330,8 @@
         }
     }
 
-    // buy-product
+
+
     .product-page {
         padding-top: 57px;
 
@@ -339,7 +368,7 @@
         }
     }
 
-    // about-us
+
 
     .about-us {
         padding: 40px 20px;
@@ -376,7 +405,8 @@
         }
     }
 
-    //help
+
+
     .help {
         padding: 93px 20px 50px 20px;
 
