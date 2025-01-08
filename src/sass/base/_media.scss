@@ -1,0 +1,425 @@
+@media(min-width: 1360px) { 
+    .buy-product {
+        &-cards {
+            .buy-product-card {
+                &-info {
+                    &-more {
+                        &-btn {
+                            flex: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // buy-product
+    .product-page {
+        &-info {
+            .product-page-btn {
+                display: block;
+                margin: 75px auto 0 auto;
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media(max-width: 1360px) {
+//promo
+    .buy-product {
+        &-cards {
+            .buy-product-card {
+                &-info {
+                    &-more {
+                        flex-direction: column;
+                        align-items: normal;
+                        &-price {
+                            justify-content: start;
+                        }
+                        &-btn {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .lenses-guide {
+        padding: 0;
+        flex-direction: column;
+        align-items: normal;
+        &-img {
+            width: 100%;
+        }
+
+        &-info {
+            margin: 80px 0;
+
+            &-title, &-subtitle {
+                text-align: center;
+            }
+
+            &-subtitle {
+                margin-top: 35px;
+            }
+
+            &-btn {
+                display: block;
+                margin: 60px auto 0 auto;
+            }
+        }
+    }
+
+    // buy-product
+    .product-page {
+        &-info {
+            margin-top: 30px;
+        }
+    }
+
+    // about-us
+    .about-us {
+        padding: 50px;
+    }
+
+    //help
+    .help {
+        padding: 190px 50px 100px 50px;
+    }
+}
+
+@media(max-width: 991px) {
+    .header {
+        padding: 34px 30px;
+        &-hamburger {
+            display: block;
+        }
+
+        .logo {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        &-commands {
+            &-infos {
+                display: none;
+            }
+
+            &-more {
+                margin-left: 0;
+
+                .basket, .search {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    //promo
+
+    .promo {
+        background: none;
+        background-color: #09FFD3;
+    }
+
+    .buy-product {
+        &-title {
+            margin-left: 40px;  
+        }
+
+        &-cards {
+            margin: 60px 30px;
+            
+            .buy-product-card {
+                width: 48%;
+            }
+
+            .buy-product-card:hover {
+                box-shadow: none;   
+            }
+        }
+    }
+
+    // buy-product
+    .product-page {
+        flex-direction: column;
+
+        &-img {
+            width: 100%;
+        }
+
+        &-info {
+            margin: 20px 40px 0 40px;
+        }
+    }
+
+    // about-us
+    .our-story {
+        background: url('../img/about-us/main-photo-2.png') center center/cover no-repeat;
+
+        &-titles {
+            display: none;
+        }
+    }
+
+    .about-us { 
+        padding: 70px 40px;
+
+        .brand, .how-we-started, .founders {
+        
+            &-info {
+                &-title {
+                    text-align: center;
+                }
+            }
+        }
+
+        .brand {
+            flex-direction: column;
+
+            &-info {
+                margin-right: 0;
+            }
+
+            &-img {            
+                width: 100%;
+                margin-top: 100px;
+            }
+        }
+
+        .how-we-started {
+            margin-top: 70px;
+
+            &-img {
+                display: none;
+            }
+
+            &-info {
+                margin-left: 0;
+            }
+        }
+    }
+
+    //help
+    .help {
+        padding: 140px 40px 50px 40px;
+
+        &-title {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        &-info {
+            flex-direction: column;
+            margin-top: 50px;
+
+            &-contacts {
+                margin-left: 0;
+                margin-top: 50px;
+
+                &-title {
+                    font-size: 50px;
+                }
+            }
+        }
+
+        &-map {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+//promo
+    .buy-product {
+        &-title {
+            margin-top: 30px;
+        }
+
+        &-cards {
+            margin: 60px 30px;
+            
+            .buy-product-card {
+                width: 100%;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .lenses-guide  {
+        &-info {
+            margin: 35px 25px;
+        }
+    }
+
+    .footer {
+        padding: 30px 20px;
+        &-links {
+            flex-wrap: wrap;
+        }
+
+        &-descr {
+            margin-top: 25px;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .header {
+        padding: 10px 20px;
+
+        .logo {
+            width: 120px;
+        }
+    }
+
+    .footer {
+        &-descr {
+            text-align: center;
+        }
+    }
+    
+    //promo
+    .promo {
+        min-height: 600px;
+
+        &-title {
+            padding-top: 100px;
+            font-size: 4rem;
+        }
+
+        &-subtitle {
+            font-size: 2rem;
+        }
+    }
+
+    .buy-product {
+        &-title {
+            margin-left: 20px;
+            font-size: 30px;  
+        }
+    }
+
+    // buy-product
+    .product-page {
+        padding-top: 57px;
+
+        &-info {
+            margin: 20px 20px 0 20px;
+
+            .product-page-titles-and-price {
+                .product-page-titles {
+                    .product-page-title {
+                        font-size: 30px;
+                    }
+
+                    .product-page-subtitle {
+                        font-size: 20px;
+                    }
+                }
+
+                .product-page-price {
+                    font-size: 30px;
+                }
+            }
+
+            .product-page-rating-reviews {
+                font-size: 10px;
+            }
+
+            .product-page-text {
+                font-size: 15px;
+            }
+
+            .product-page-btn {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    // about-us
+
+    .about-us {
+        padding: 40px 20px;
+
+        .brand, .how-we-started, .founders {
+            &-info {
+                &-title {
+                    font-size: 32px;
+                }
+
+                &-text {
+                    margin-top: 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .brand {
+            &-img {            
+                margin-top: 20px;
+            }
+        }
+
+        .how-we-started {
+            margin-top: 20px;
+        }
+
+        .founders {
+            margin-top: 20px;
+
+            &-info {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    //help
+    .help {
+        padding: 93px 20px 50px 20px;
+
+        &-title {
+            font-size: 28px;
+        }
+
+        &-info {
+            flex-direction: column;
+            margin-top: 15px;
+
+            &-text {
+                font-size: 16px;
+            }
+
+            &-contacts {
+                &-title {
+                    font-size: 28px;
+                }
+
+                &-info {
+                    margin-top: 20px;
+
+                    .help-info-contacts-fb, .help-info-contacts-gmail, .help-info-contacts-phone {
+                        margin-top: 15px;
+                        flex-wrap: wrap;
+    
+                        .help-info-contacts-fb-name, .help-info-contacts-gmail-name, .help-info-contacts-phone-name {
+                            font-size: 15px;
+                            margin: 0 10px;
+                        }
+    
+                        .help-info-contacts-fb-contact, .help-info-contacts-gmail-contact, .help-info-contacts-phone-numbers {
+                            font-size: 15px;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        &-map {
+            margin-top: 50px;
+        }
+    }
+}
